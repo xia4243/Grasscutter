@@ -5,7 +5,7 @@
 
 # Stops the installer if any command has a non-zero exit status
 set -e
-
+e
 # Checks for root
 if [ $EUID != 0 ]; then
         echo "Please run the installer as root!"
